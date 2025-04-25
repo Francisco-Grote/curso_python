@@ -30,3 +30,6 @@ mi_nombre_de_variable = "okkkk" #snake_case
 
 ## python NO TIENE CONSTANTES.
 
+MI_CONSTANTE = "SOY UNA CONSTANTE" #Cuando hay que declarar constantes se hace de esta manera
+
+

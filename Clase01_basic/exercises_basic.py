@@ -35,7 +35,7 @@ print("\nEjercicio 3: Casting de tipos")
 print("Convierte la cadena \"12345\" a un entero y luego a un float.")
 print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
 
-### Completa aquí
+### Completa aquí  
 cadena = "12345"
 tipo_float = 3.99
 print(type(int(cadena)))

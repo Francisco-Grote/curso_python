@@ -75,3 +75,19 @@ mostrar_informacion_de(nombre="Alice", edad=30, ciudad="Barcelona", profesion="I
 
 """
 el ejercicio es volver a ejercicios anteriores y crear funciones que realicen las tareas"""
+# Ejercicio 1: Cuenta atrás
+# Imprime los números del 10 al 1 usando un bucle while.
+
+def cuenta_atras(inicio):
+    while inicio >= 1:
+        print(inicio)
+        inicio -= 1
+cuenta_atras(10)
+
+# Ejercicio 1: Imprimir números pares
+# Imprime todos los números pares del 2 al 20 (inclusive) usando un bucle for.
+def numero_pares(numeros):
+    for numero_par in numeros:
+        if numero_par % 2 == 0:
+            print(numero_par)
+numero_pares(range(2, 21))
